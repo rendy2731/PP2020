@@ -1,4 +1,4 @@
-# Repository Pengumpulan Tugas Praktikum Lab PBO
+# Repository Pengumpulan Tugas Praktikum Lab PP
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
 0. **Fork** Repositori ini.
