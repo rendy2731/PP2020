@@ -9,9 +9,8 @@ public class Nomor1{
         int jam = inputan.nextInt();
         System.out.print("\nKecepatan rata-rata (km/jam) : ");
         int kecepatan = inputan.nextInt();
-        int bb = jam*kecepatan;
         inputan.close();
-        double penggunaan = (double) bb/14;
+        double penggunaan = (double) (jam*kecepatan)/14;
     
         System.out.printf("\nBensin yang digunakan : %.3f L",penggunaan);
 
