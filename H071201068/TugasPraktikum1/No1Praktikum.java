@@ -6,10 +6,13 @@ public class No1Praktikum{
 
             //Waktu = W
             //Kecepatan = K
-        System.out.println("Masukkan Lama Waktu yang ditempuh" );
+            //Efisiensi = E
+        System.out.println("Silahkan Masukkan Lama Waktu yang Ditempuh (Jam)" );
         int W = input.nextInt();
-        System.out.println("Masukkan Kecepatan rata-rata dalam perjalanan");
+        System.out.println("Silahkan Masukkan Kecepatan Rata-rata dalam Perjalanan (KM/Jam)");
         int K = input.nextInt();
+        System.out.println("Silahkan Masukkan Nilai Efisiensi Bahan Bakar Kendaraan Anda (KM/L)");
+        int E = input.nextInt();
         
             input.close();
             
@@ -18,9 +21,9 @@ public class No1Praktikum{
         int J;
         float Bensin;
           J = W*K;
-          Bensin = (float)J/14;
+          Bensin = (float)J/E;
 
-        System.out.printf("Bensin yang digunakan dengan efisiensi 14 KM/L = %.3fL", Bensin);
+        System.out.printf("Bensin yang digunakan dengan efisiensi %d KM/L = %.3f L", E, Bensin);
 
     }
 }
