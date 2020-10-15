@@ -3,7 +3,7 @@ public class Nomor1{
     public static void main(String[] args){
         /* Menghitung penggunaan bensin dalam perjaanan
          * Nama : Ichsan Takwa
-         * NIM  : H071201058                        */
+         * NIM  : H071201058                         */
         Scanner inputan = new Scanner(System.in);
         System.out.print("Waktu di tempuh (jam) : ");
         int jam = inputan.nextInt();
