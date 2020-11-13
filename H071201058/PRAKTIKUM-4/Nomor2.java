@@ -29,24 +29,22 @@ public class Nomor2 {
         // operasi perkalian matriks
         for (int i2 = 0; i2 < i; i2++) {
             for (int k2 = 0; k2 < k; k2++) {
-                matriks_hasil[i2][k2] = (matriks_A[i2][0]*matriks_B[0][k2])+(matriks_A[i2][1]*matriks_B[1][k2]);
+                for (int l = 0; l < j ; l++) {
+                    //if (l >= k) {
+                    //   break;
+                    //}
+                    matriks_hasil[i2][k2] += (matriks_A[i2][l]*matriks_B[l][k2]);
+                }    
             }
-
         }
 
         // cetak matriks hasil
-        for (int i2 = 0; i2 < i; i2++) {
-            for (int k2 = 0; k2 < k; k2++) {
+        for (int i2 = 0; i2 < matriks_hasil.length; i2++) {
+            for (int k2 = 0; k2 < matriks_hasil[i2].length; k2++) {
                 System.out.print(matriks_hasil[i2][k2]+ " ");
             }
             System.out.println();
 
         }
-
-
-
-
-
     }
-    
 }
