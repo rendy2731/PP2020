@@ -146,14 +146,14 @@ class Tugas1 {
             System.out.println("\nContinue? Y/N");
             System.out.print("> ");
             String ctn = input.next();
-                if (ctn.equalsIgnoreCase("N")) {
-                    break;
-                } else if (ctn.equalsIgnoreCase("Y")) {
-                    System.out.println();
-                } else {
-                    System.out.println("Inputan tidak valid.");
-                    break;
-                }
+            if (ctn.equalsIgnoreCase("N")) {
+                break;
+            } else if (ctn.equalsIgnoreCase("Y")) {
+                System.out.println();
+            } else {
+                System.out.println("Inputan tidak valid.");
+                break;
+            }
         }
     input.close();
     }
