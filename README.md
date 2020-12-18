@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Repository Pengumpulan Tugas Praktikum Lab PP
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
@@ -22,6 +21,6 @@
 ```diff
 ! ### Bila Bingung dengan Cara di atas, Bisa Mengikuti Langkah pada File PDF Terlampir!
 ```
-=======
+
 # PP2020
 Asisten 7
